@@ -8,17 +8,19 @@ Este proyecto implementa un sistema de gestión de tareas utilizando el framewor
 Para instalar y configurar el entorno, realice los siguientes pasos:
 
 1. Clonar el repositorio:
+
     ```
     git clone https://github.com/Daniel-Santiago-Acosta-1013/task-manager-fast-api
     ```
 2. Instalar dependencias:
+
     ```
     pip install -r requirements.txt
     ```
 
 ## Cómo ejecutar la aplicación
 
-Para ejecutar la aplicación, utilice el comando uvicorn como se muestra a continuación:
+- Para ejecutar la aplicación, utilice el comando uvicorn como se muestra a continuación:
 
     ```
     uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload

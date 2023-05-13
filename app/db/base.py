@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from app.core.config import settings
 
 engine = create_engine(
-    settings.SQLALCHEMY_DATABASE_URI,
+    settings.DATABASE_URL,
     pool_pre_ping=True,
     pool_recycle=3600,
 )

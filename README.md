@@ -22,8 +22,8 @@ Para instalar y configurar el entorno, realice los siguientes pasos:
 
 - Para ejecutar la aplicación, utilice el comando uvicorn como se muestra a continuación:
 
-    ```
-    uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    ```bash
+    uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
     ```
 
 ## Documentación
